@@ -1,35 +1,39 @@
 .navColor {
   color: #6f453f;
+  font-family: 'Cinzel Decorative', cursive;
 }
-.pillBackground {
-  background-color: #6f453f !important;
+.nav-pills .pillBackground.active {
+  background-color: #6f453f;
+  font-family: 'Cinzel Decorative', cursive;
 }
 .jumbotron {
   margin-top: 15px;
   background-image: url("../images/herefordcover.jpg");
-  /* background-position: center;  */
   background-size: cover;
   opacity: 0.5;
-  /* background-repeat: no-repeat; */
-  /* width: auto; */
-  /* color: #000000; */
-  /* filter: alpha(opacity=50); */
-}
-/* .transbox {
-  margin: 30px;
-  background-color: whitesmoke;
-  opacity: 0.6;
-} */
-.jumboText {
-  color: #000000;
+  min-height: 300px;
 }
 #title {
-  color: #000000;
+  color: #6f453f;
+  position: absolute;
+  text-align: left;
+  left: 2.5%;
+  top: 70%;
+  font-weight: bold;
+  font-family: 'Cinzel Decorative', cursive;
 }
-/* .quote {
-  font-weight: 400px;
-  /* margin-top: -100px; */
-  /* font-style: italic;
+.quote {
+  font-style: italic;
   margin-left: 5%;
-  color: #000000;
-} */
+  color: #6f453f;
+  top: 150px;
+  text-align: left;
+  font-weight: bold;
+}
+.top {
+  position: relative;
+}
+
+h1 {
+  font-weight: bold;
+}
